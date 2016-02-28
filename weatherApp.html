@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CurrentWeather</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+</head>
+<body class="container">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+       <div> Shiva's Weather Forcast Machine</div>
+      </a>
+    </div>
+    <p class="navbar-text navbar-right" style="padding-right: 10px">Powered By <a href="http://openweathermap.org/" class="navbar-link">OpenWeatherMap</a></p>
+  </div>
+</nav>
+    <div class="row spacer"></div>
+    <div class="row spacer"></div>
+    <div class="row spacer"></div>
+    <div class="row spacer"></div>
+
+    <div class = "row">
+
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+                <form id="form-container" class="form-container">
+
+                <input type="text"  class="form-control" id="city" value="" autocomplete="off"placeholder="Please Enter the City name.">
+                <button id="submit-btn" class="form-control btn btn-success">Search</button>
+                </form>
+                <div class="row spacer"></div>
+                <div id="output" class = "row panel" style="visibility: hidden;" ></div>
+        </div>
+          <div class="col-md-4"></div>
+    </div>
+    
+
+
+     <!-- JavaScript -->
+    <script src="lib/jquery.min.js"></script>
+    <script src="script/weatherScript.js"></script>
+    
+</body>
+</html>
