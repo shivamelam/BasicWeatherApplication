@@ -2,10 +2,6 @@
 // Make the code local scoped rather than global
 (function(){
 
-//Where the fuck is the api key??
-// Answer here!
-//wait..  i total
-// Yipee Kai ae motherfucker! :D
 
 function loadData()
 {
